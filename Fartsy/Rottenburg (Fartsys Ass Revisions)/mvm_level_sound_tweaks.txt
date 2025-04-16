@@ -1,0 +1,2802 @@
+//This file was created by Professor Fartsalot (Fartsy#8998) for the Fartsy's Ass MvM Revisions. Please do not modify.
+"Demoman.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/demoman_Go01.mp3"
+		"wave"	"vo/demoman_Go02.mp3"
+		"wave"	"vo/demoman_Go03.mp3"
+	}
+}
+
+"Engineer.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/engineer_mvm_ask_ready01.mp3"
+		"wave"	"vo/engineer_mvm_ask_ready02.mp3"
+		"wave"	"vo/engineer_mvm_say_ready01.mp3"
+		"wave"	"vo/engineer_mvm_say_ready02.mp3"
+	}
+}
+
+"Heavy.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/heavy_mvm_ask_ready01.mp3"
+		"wave"	"vo/heavy_mvm_ask_ready02.mp3"
+		"wave"	"vo/heavy_mvm_ask_ready03.mp3"
+		"wave"	"vo/heavy_mvm_ask_ready04.mp3"
+		"wave"	"vo/heavy_mvm_say_ready01.mp3"
+		"wave"	"vo/heavy_mvm_say_ready02.mp3"
+		"wave"	"vo/heavy_mvm_say_ready03.mp3"
+		"wave"	"vo/heavy_mvm_say_ready04.mp3"
+		"wave"	"vo/heavy_mvm_say_ready05.mp3"
+	}
+}
+
+"Medic.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/medic_getready.mp3"
+		"wave"	"vo/medic_mvm_say_ready01.mp3"
+		"wave"	"vo/medic_mvm_say_ready02.mp3"
+	}
+}
+
+"Pyro.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"vo/pyro_Go01.mp3"
+}
+
+"Scout.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/scout_Go01.mp3"
+		"wave"	"vo/scout_Go02.mp3"
+		"wave"	"vo/scout_Go03.mp3"
+	}
+}
+
+"Sniper.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/sniper_Go01.mp3"
+		"wave"	"vo/sniper_Go02.mp3"
+		"wave"	"vo/sniper_Go03.mp3"
+	}
+}
+
+"Soldier.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_whotfisntready.mp3"
+		"wave"	"vo/soldier_mvm_ask_ready02.mp3"
+		"wave"	"vo/soldier_mvm_ask_ready03.mp3"
+		"wave"	"vo/soldier_mvm_say_ready01.mp3"
+		"wave"	"vo/soldier_mvm_say_ready02.mp3"
+	}
+}
+
+"Spy.ReadyMvM"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/spy_Go01.mp3"
+		"wave"	"vo/spy_Go02.mp3"
+		"wave"	"vo/spy_Go03.mp3"
+	}
+}
+
+"TFPlayer.CritHit"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"		"player/crit_hit.wav"
+		"wave"		"player/crit_hit2.wav"
+		"wave"		"player/crit_hit3.wav"
+		"wave"		"player/crit_hit4.wav"
+		"wave"		"player/crit_hit5.wav"
+	}
+}
+
+"TFPlayer.CritHitMini"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.45"
+	"soundlevel"  	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"		"player/crit_hit_mini.wav"
+		"wave"		"player/crit_hit_mini2.wav"
+		"wave"		"player/crit_hit_mini3.wav"
+		"wave"		"player/crit_hit_mini4.wav"
+		"wave"		"player/crit_hit_mini5.wav"
+	}
+}
+
+//Class VOs
+"Demoman.CloakedSpyIdentify02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/kissone/demoman_yurdoingudlad.mp3"
+}
+
+"Demoman.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/demoman_meem.mp3"
+}
+
+"Engineer.AutoBuildingDispenser01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy/engineer_erectinpingas.mp3"
+}
+
+"Engineer.AutoBuildingDispenser02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy_fifteenai/engineer_gogogadgetdispenser.mp3"
+}
+
+"Engineer.Incoming02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/cray/nutbuster.mp3"
+}
+
+"Engineer.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/engineer_meem.mp3"
+}
+
+"Engineer.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/engineer_PainCrticialDeath04.mp3"
+}
+
+"Heavy.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/heavy_meem.mp3"
+}
+
+"Heavy.Medic02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/spongebob/patrick_finland.mp3"
+}
+
+"Heavy.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/spongebob/patrick_finland.mp3"
+}
+
+"Heavy.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/heavy_PainCrticialDeath03.mp3"
+}
+
+"Medic.AutoChargeReady01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy_fifteenai/medic_readytoripafart.mp3"
+}
+
+"Medic.AutoChargeReady03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy_fifteenai/medic_drugsfullycharged.mp3"
+}
+
+"Medic.Jeers08"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.620"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler_fifteenai/medic_stopstealingipaddrs.mp3"
+}
+
+"Medic.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/medic_meem.mp3"
+}
+
+"medic_mvm_ask_ready01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"fartsy/vo/fartsy_fifteenai/medic_getready.mp3"
+}
+
+"Medic.PainCrticialDeath01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/medic_PainCrticialDeath01.mp3"
+}
+
+"Medic.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/medic_PainCrticialDeath04.mp3"
+}
+
+"Medic.SpecialCompleted05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy_fifteenai/medic_enjoystench.mp3"
+}
+
+"Medic.Taunts09"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy_fifteenai/medic_smellofprofsass.mp3"
+}
+
+"Pyro.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/pyro_meem.mp3"
+}
+
+"Pyro.PainCrticialDeath01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/pyro_PainCrticialDeath01.mp3"
+}
+
+"Scout.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/scout_meem.mp3"
+}
+
+"Scout.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/scout_PainCrticialDeath03.mp3"
+}
+
+"Sniper.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/sniper_meem.mp3"
+}
+
+"Sniper.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/sniper_PainCrticialDeath04.mp3"
+}
+
+"Soldier.CloakedSpyIdentify05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/kissone/soldier_demomanscock.mp3"
+}
+
+"Soldier.Jeers06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler_fifteenai/soldier_stopdoxing.mp3"
+}
+
+"Soldier.LaughLong01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/soldier_cursedlaugh.mp3"
+}
+
+"Soldier.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/fartsy/soldier_reversescream.mp3"
+}
+
+"Soldier.Medic02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/soldier_meem.mp3"
+}
+
+"soldier_mvm_ask_ready01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"1.000"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"		"fartsy/vo/fartsy_fifteenai/soldier_whotfisntready.mp3"
+}
+
+"Soldier.PainCrticialDeath02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/soldier_PainCrticialDeath02.mp3"
+}
+
+"Soldier.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/soldier_PainCrticialDeath03.mp3"
+}
+
+"Soldier.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/soldier_PainCrticialDeath04.mp3"
+}
+
+"Spy.Medic01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/spy_scream.mp3"
+}
+
+"Spy.Medic03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.820"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/brawler/spy_meem.mp3"
+}
+
+"Spy.PainCrticialDeath01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/spy_scream.mp3"
+}
+
+"Spy.PainCrticialDeath02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/spy_PainCrticialDeath02.mp3"
+}
+
+"Spy.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/spy_PainCrticialDeath03.mp3"
+}
+
+//Deaths
+"Demoman.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/demoman_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/demoman_PainCrticialDeath04.mp3"
+	}
+}
+
+"Demoman.PainCrticialDeath03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/demoman_PainCrticialDeath03.mp3"
+}
+
+"Demoman.PainCrticialDeath04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"wave"			"fartsy/vo/explodingcookie/demoman_PainCrticialDeath04.mp3"
+}
+"Engineer.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/engineer_PainCrticialDeath04.mp3"
+	}
+}
+
+"Heavy.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/heavy_PainCrticialDeath03.mp3"
+	}
+}
+
+"Medic.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/medic_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/medic_PainCrticialDeath04.mp3"
+	}
+}
+
+"Pyro.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"
+	{
+		"wave"		"fartsy/vo/explodingcookie/pyro_PainCrticialDeath01.mp3"
+	}
+}
+
+"Scout.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/scout_PainCrticialDeath01.mp3"
+	}
+}
+
+"Sniper.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/sniper_PainCrticialDeath04.mp3"
+	}
+}
+
+"Soldier.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/soldier_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/soldier_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/soldier_PainCrticialDeath04.mp3"
+	}
+}
+
+"Spy.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/Spy_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/Spy_PainCrticialDeath03.mp3"
+        "wave"      "fartsy/vo/spy_scream.mp3"
+	}
+}
+
+"Civilian.CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+    "rndWave"
+	{
+		"wave"		"fartsy/vo/explodingcookie/scout_PainCrticialDeath03.mp3"
+	}
+}
+
+//Deaths (MvM Robots)
+"Demoman.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath04.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath05.mp3"
+	}
+}
+
+"Engineer.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath04.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath05.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath06.mp3"
+	}
+}
+
+"Heavy.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Medic.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Pyro.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Scout.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Sniper.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Soldier.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Spy.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath03.mp3"
+	}
+}
+//Generic VOs
+"Announcer.RoundBegins5Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/vo/jeffy/cdfive.mp3"
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/vo/jeffy/cdfour.mp3"
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/vo/jeffy/cdthree.mp3"
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/vo/jeffy/cdtwo.mp3"
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/vo/jeffy/cdone.mp3"
+}
+
+//Misc. SFX
+"Building_Dispenser.Build21"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/sentry_empty.wav"
+}
+
+"Building_Dispenser.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/dispenser_explode.wav"
+}
+
+"Building_MiniSentrygun.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot_mini.wav"
+}
+
+"Building_Sentrygun.Alert"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_88dB"
+	"wave"			"fartsy/misc/sentry_spot.wav"
+}
+
+"Building_Sentrygun.AlertTarget"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_88dB"
+	"wave"			"fartsy/misc/sentry_spot_client.wav"
+}
+
+"Building_Sentrygun.Built"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			")fartsy/misc/sentry_finish.wav"
+}
+
+"Building_Sentry.Damage"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_94dB"
+	"rndwave"
+	{
+		"wave"		"fartsy/misc/sentry_damage1.wav"
+		"wave"		"fartsy/misc/sentry_damage2.wav"
+		"wave"		"fartsy/misc/sentry_damage3.wav"
+		"wave"		"fartsy/misc/sentry_damage4.wav"
+	}
+}
+
+"Building_Sentrygun.Empty"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"fartsy/misc/sentry_empty.wav"
+}
+
+"Building_Sentry.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/sentry_explode.wav"
+}
+
+"Building_Sentrygun.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot.wav"
+}
+
+"Building_Sentrygun.Fire2"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot2.wav"
+}
+
+"Building_Sentrygun.Fire3"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot3.wav"
+}
+
+"Building_Sentrygun.FireRocket"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+
+	"wave"		")fartsy/misc/sentry_rocket.wav"
+}
+
+"Building_Sentrygun.Idle"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan.wav"
+}
+
+"Building_Sentrygun.Idle2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan2.wav"
+}
+
+"Building_Sentrygun.Idle3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan3.wav"
+}
+
+"Building_Teleporter.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/teleporter_explode.wav"
+}
+
+"Game.PenetrationKill"
+{
+	"channel"	"CHAN_STATIC"
+ 	"volume"	"0.8"
+ 	"pitch"		"100"
+ 	"soundlevel"   "SNDLVL_NORM"
+	"wave"	"fartsy/misc/brawler/kissone_railgun_double_kill.wav"
+}
+
+"TFPlayer.AirBlastImpact"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast1.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast2.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast3.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast4.wav"
+	}
+}
+
+"TFPlayer.ReCharged"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"fartsy/misc/brawler/kissone_recharged.wav"
+}
+
+//MvM BGM
+"music.mvm_start_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.48"
+	"wave"		"#*fartsy/music/solstice_krab.wav"
+}
+
+"music.mvm_start_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/solstice_krab.wav"
+}
+"music.mvm_start_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.39"
+	"wave"		"#*fartsy/music/rideofthevalkries.wav"
+}
+
+"music.mvm_start_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/megalovania_intro.wav"
+}
+
+"music.mvm_end_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.36"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.6"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+"music.class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_bg.wav"
+}
+
+"music.class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_01.wav"
+}
+
+"music.class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_08.wav"
+}
+
+"music.class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_02.wav"
+}
+
+"music.class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_04.wav"
+}
+
+"music.class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_07.wav"
+}
+
+"music.class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_05.wav"
+}
+
+"music.class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_03.wav"
+}
+
+"music.class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_09.wav"
+}
+
+"music.class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_06.wav"
+}
+"music.mvm_class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.45"
+	"wave"		"#*fartsy/music/class_menu_bg.wav"
+}
+
+"music.mvm_class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_01.wav"
+}
+
+"music.mvm_class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_08.wav"
+}
+
+"music.mvm_class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_02.wav"
+}
+
+"music.mvm_class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_04.wav"
+}
+
+"music.mvm_class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_07.wav"
+}
+
+"music.mvm_class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_05.wav"
+}
+
+"music.mvm_class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_03.wav"
+}
+
+"music.mvm_class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_09.wav"
+}
+
+"music.mvm_class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_06.wav"
+}
+
+//MvM SFX
+"MVM.BombExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			"fartsy/misc/shartsplosion.wav"
+}
+
+"MVM.BombWarning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			"fartsy/misc/lozclocktowerbell.wav"
+}
+
+"MVM.GiantCommonExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_125dB"
+	"rndwave"
+	{
+		"wave"	")fartsy/misc/fart_reverb.wav"
+	}	
+}
+
+"MVM.GiantHeavyExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_125dB"
+	"rndwave"
+	{
+		"wave"	")fartsy/misc/fart_reverb.wav"
+	}	
+}
+
+"MVM.PlayerDied"
+{
+    "channel"    "CHAN_STATIC"
+    "volume"     "0.600"
+    "pitch"      "PITCH_NORM"
+    "soundlevel" "SNDLVL_NONE"
+
+    "wave"       "#*fartsy/memes/priceisright_fail.wav"
+}
+
+"MVM.PlayerRevived"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"fartsy/misc/poke.wav"
+}
+
+"MVM.SentryBusterExplode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_130dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_explode.wav"
+}
+
+"MVM.SentryBusterSpin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_130dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_spin.wav"
+}
+
+"MVM.SentryBusterLoop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_loop.wav"
+}
+
+"MVM.SentryBusterIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_intro.wav"
+}
+
+"MVM.SentryBusterStep"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_01.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_02.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_03.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_04.wav"
+	}
+}
+
+"MVM.TankPing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")fartsy/eee/the_horn.wav"
+}
+
+"MVM.TankEngineLoop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.89"
+	"pitch"		"100"
+	"soundlevel"  "SNDLVL_85dB"
+	"wave"		"^fartsy/misc/mvm_tank_loop.wav"
+}
+
+"MVM.TankSmash"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")fartsy/misc/mvm_tank_smash.wav"
+}
+
+"MVM.TankDeploy"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			"fartsy/misc/mvm_tank_deploy.wav"
+}
+
+"MVM.TankExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.85"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")fartsy/misc/mvm_tank_explode.wav"
+}
+"MVM.Warning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/misc/fart.wav"
+}
+//MvM VOs
+"Announcer.MVM_First_Wave_Start"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/fartsy/whatyousignedupfor.mp3"
+		"wave"	"fartsy/vo/jeffy/welcometodovahsass.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass01.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass02.mp3"
+        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass03.mp3"
+        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass04.mp3"
+        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass05.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/markiplier/wthisthat.mp3"
+		"wave"	"fartsy/vo/kissone/welcometodovahsass.mp3"
+	}
+}
+
+"Announcer.MVM_Wave_Start"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/sathie/evilvoice.mp3"
+		"wave"	"fartsy/vo/jeffy/welcometodovahsass.mp3"
+		"wave"	"fartsy/vo/sathie/myvoiceisshot.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass01.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass02.mp3"
+        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass03.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass04.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass05.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/coburn/weinterruptthisprogramme.mp3"
+		"wave"	"vo/mvm_wave_start11.mp3"
+		"wave"	"fartsy/vo/kissone/welcometodovahsass.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+	}
+}
+//"Announcer.MVM_Wave_End"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_wave_end01.mp3"
+//		"wave"	"vo/mvm_wave_end02.mp3"
+//		"wave"	"vo/mvm_wave_end03.mp3"
+//		"wave"	"vo/mvm_wave_end04.mp3"
+//		"wave"	"vo/mvm_wave_end05.mp3"
+//		"wave"	"vo/mvm_wave_end06.mp3"
+//		"wave"	"vo/mvm_wave_end07.mp3"
+//		"wave"	"vo/mvm_wave_end08.mp3"
+//	}
+//}
+"Announcer.MVM_Wave_Lose"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/spongebob/patrick_deadagain.mp3"
+	}
+}
+
+//"Announcer.MVM_Final_Wave_Start"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_final_wave_start01.mp3"
+//		"wave"	"vo/mvm_final_wave_start02.mp3"
+//		"wave"	"vo/mvm_final_wave_start03.mp3"
+//		"wave"	"vo/mvm_final_wave_start04.mp3"
+//		"wave"	"vo/mvm_final_wave_start05.mp3"
+//		"wave"	"vo/mvm_final_wave_start06.mp3"
+//		"wave"	"vo/mvm_final_wave_start07.mp3"
+//		"wave"	"vo/mvm_final_wave_start08.mp3"
+//		"wave"	"vo/mvm_final_wave_start09.mp3"
+//		"wave"	"vo/mvm_final_wave_start10.mp3"
+//		"wave"	"vo/mvm_final_wave_start11.mp3"
+//		"wave"	"vo/mvm_final_wave_start12.mp3"
+//	}
+//}
+"Announcer.MVM_Final_Wave_End"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/kissone/thankyouforplaying.mp3"
+	}
+}
+//"Announcer.MVM_Manned_Up_Wave_End"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_mannup_wave_end01.mp3"
+//		"wave"	"vo/mvm_mannup_wave_end02.mp3"
+//	}
+//}
+
+// purposely added back01 twice to skew how often it's used
+//"Announcer.MVM_Bomb_Reset"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_bomb_back01.mp3"
+//		"wave"	"vo/mvm_bomb_back01.mp3"
+//		"wave"	"vo/mvm_bomb_reset01.mp3"
+//		"wave"	"vo/mvm_bomb_reset02.mp3"
+//		"wave"	"vo/mvm_bomb_reset03.mp3"
+//	}
+//}
+//"Announcer.MVM_Bonus"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_bonus01.mp3"
+//		"wave"	"vo/mvm_bonus02.mp3"
+//		"wave"	"vo/mvm_bonus03.mp3"
+//	}
+//}
+"Announcer.MVM_Get_To_Upgrade"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/spongebob/hihowareya.mp3"
+		"wave"	"fartsy/misc/donkey.mp3"
+		"wave"	"fartsy/vo/eee/rolfmanydoorsyes.mp3"
+		"wave"	"fartsy/vo/eee/yodel.mp3"
+		"wave"	"fartsy/vo/jeffy/buyupgrades.mp3"
+		"wave"	"fartsy/vo/spongebob/mrkrabsilikemoney.mp3"
+		"wave"	"fartsy/vo/shialabeouf/doit.mp3"
+		"wave"	"fartsy/vo/salvatoreganacci/trytorelaxyouranus.mp3"
+		"wave"	"fartsy/vo/celdamage/fowlmouth_fyou.mp3"
+		"wave"	"fartsy/vo/joeyghost/ohno.mp3"
+		"wave"	"fartsy/vo/spongebob/patrick_thisispatrick.mp3"
+	}
+}
+
+"Announcer.MVM_Robots_Planted"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/spongebob/patrick_deadagain.mp3"
+	}
+}
+"Announcer.MVM_Tank_Planted"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/spongebob/patrick_deadagain.mp3"
+	}
+}
+
+//"Announcer.MVM_All_Dead"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_all_dead01.mp3"
+//		"wave"	"vo/mvm_all_dead02.mp3"
+//		"wave"	"vo/mvm_all_dead03.mp3"
+//	}
+//}
+//"Announcer.MVM_Bomb_Alert_Entered"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_bomb_alerts01.mp3"
+//		"wave"	"vo/mvm_bomb_alerts02.mp3"
+//	}
+//}
+"Announcer.MVM_Bomb_Alert_Near_Hatch"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/lixian/abouttobedeployed.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/heavy_abouttobedeployed.mp3"
+        "wave"	"fartsy/vo/fartsy_fifteenai/soldier_abouttobedeployed01.mp3"
+        "wave"	"fartsy/vo/fartsy_fifteenai/soldier_abouttobedeployed02.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_whojustsigned.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_stenchcalamity.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/pauling_abouttobedeployed.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/spongebob_abouttobedeployed01.mp3"
+        "wave"	"fartsy/vo/fartsy_fifteenai/spongebob_abouttobedeployed02.mp3"
+	}
+}
+"Announcer.MVM_Bomb_Alert_Deploying"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_stenchcalamity.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/pauling_abouttobedeployed.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/spongebob_abouttobedeployed01.mp3"
+        "wave"	"fartsy/vo/fartsy_fifteenai/spongebob_abouttobedeployed02.mp3"
+	}
+}
+"Announcer.MVM_Sentry_Buster_Alert"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/cray/nutbuster.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_sentrybusters.mp3"
+		"wave"	"fartsy/vo/kissone/sentrybustercoming.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/spongebob_sentrybuster.mp3"
+	}
+}
+"Announcer.MVM_Sentry_Buster_Alert_Another"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/engineer_anothersentrybuster.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/spongebob_anothersentrybuster.mp3"
+	}
+}
+//"Announcer.MVM_Spy_Alert"
+//{
+//	"channel"		"CHAN_VOICE2"
+//	"volume"		"VOL_NORM"
+//	"pitch"			"PITCH_NORM"
+//
+//	"soundlevel"	"SNDLVL_NORM"
+//
+//	"rndwave"
+//	{
+//		"wave"	"vo/mvm_spy_spawn01.mp3"
+//		"wave"	"vo/mvm_spy_spawn02.mp3"
+//		"wave"	"vo/mvm_spy_spawn03.mp3"
+//		"wave"	"vo/mvm_spy_spawn04.mp3"
+//	}
+//}
+"Announcer.MVM_Tank_Alert_Spawn"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/lixian/tank.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/demoman_tank.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Another"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/engineer_anothertank.mp3"
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_whotfspawnedthat.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Multiple"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/heavy_stopthosetanks01.mp3"
+		"wave"	"fartsy/vo/kissone/multipletanks.mp3"
+		"wave"	"fartsy/vo/lixian/multipletanks.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Halfway"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/soldier_stopthattank.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Halfway_Multiple"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/heavy_stopthosetanks02.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Near_Hatch"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/scout_notreadytank.mp3"
+	}
+}
+"Announcer.MVM_Tank_Alert_Deploying"
+{
+	"channel"		"CHAN_VOICE2"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"fartsy/vo/fartsy_fifteenai/scout_notreadytank.mp3"
+	}
+}
+
+//Pauling contracts
+"plng_give_contract_demo"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	  "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_give_contract_engie"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"	
+	}
+}
+
+"plng_give_contract_heavy"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"		
+	 }
+}
+
+"plng_give_contract_medic"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_give_contract_pyro"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_give_contract_scout"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_give_contract_sniper"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"	
+	 }
+}
+
+"plng_give_contract_soldier"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"	
+	}
+}
+
+"plng_give_contract_spy"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_50_allclass"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"	
+
+	"rndwave"
+	{
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_contract_complete_allclass"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_complete_demo"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_complete_engie"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_complete_heavy"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_contract_complete_medic"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_complete_pyro"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"	
+	 }
+}
+
+"plng_contract_complete_scout"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_complete_sniper"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"		 
+	 }
+}
+
+"plng_contract_complete_soldier"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"	
+	}
+}
+
+"plng_contract_complete_spy"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_contract_fail_allclass"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+"plng_give_bigcontract_allclass"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	  "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	}
+}
+
+
+"plng_contract_complete_give_item_allclass"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	  "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_points_completion"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_objective_completion"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_credits_earned"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_item_earned"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_fully_completed"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+	 }
+}
+
+"plng_contract_partially_completed"
+{
+	 "channel" 			"CHAN_VOICE"
+	 "volume" 			"VOL_NORM"
+	 "pitch" 			"PITCH_NORM"
+	 "soundlevel" 		"SNDLVL_95dB"
+
+	 "rndwave"
+	 {
+		"wave" 			"fartsy/vo/fartsy/medic_stupidhat.mp3"
+		"wave" 			"fartsy/vo/fartsy/demo_owmedic.mp3"
+		"wave" 			"fartsy/vo/fartsy/soldier_owmyanus.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_gottamnope.mp3"
+		"wave" 			"fartsy/vo/fartsy/heavy_iamded.mp3"
+		"wave" 			"fartsy/vo/fartsy/spy_wtf.mp3"
+		"wave" 			"fartsy/vo/fartsy/medic_iamfullydead.mp3"
+		"wave" 			"fartsy/vo/fartsy/engineer_dummysappin.mp3"
+
+	 }
+}
+
+//Taunts
+"music.conga_loop"
+{
+	 "channel" 			"CHAN_STATIC"
+	 "soundlevel" 			"SNDLVL_75dB"
+	 "volume"		    "1.0"
+	 "wave" 			  ")*fartsy/music/brawler/kilroy0901/autopilot.wav"
+}
+
+"sniper.killer_solo_music"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_01.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_02.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_03.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_04.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_05.mp3"
+	}
+}
+
+"Taunt.BumpkinsBanjoMusic"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"PITCH_NORM"
+	"wave"	")fartsy/music/brawler/simpsonshr/banjo_music.wav"
+}
+
+"Taunt.BumpkinsBanjoMusicFast"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"PITCH_NORM"
+	"wave"	")fartsy/music/brawler/shadyc/overdrive.wav"
+}
+
+//"Taunt.BumpkinsBanjoMusicStop"
+//{
+//	"channel"	"CHAN_BODY"
+//	"volume"	".85"
+//	"soundlevel"  	"SNDLVL_84dB"
+//	"pitch"			"PITCH_NORM"
+//	"wave"	")fartsy/brawler/music/taunt_bumpkins_banjo_music_stop.wav"
+//}
+
+//Weapons
+//Base explosion sound
+"BaseExplosionEffect.Sound"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	")weapons/explode2.wav"
+			"wave"	")weapons/explode3.wav"
+			"wave"	")fartsy/misc/elephant.wav"
+	}
+}
+
+//Black Box
+"Weapon_RPG_BlackBox.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_blackbox_shoot.wav"
+}
+
+"Weapon_RPG_BlackBox.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_blackbox_shoot_crit.wav"
+}
+
+"Weapon_RPG_BlackBox.Explode"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		")fartsy/misc/rocket_blackbox_explode1.wav"
+		"wave"		")weapons/rocket_blackbox_explode2.wav"
+		"wave"		")fartsy/misc/rocket_blackbox_explode3.wav"
+	}
+}
+
+//Brass Beast
+"Weapon_Gatling.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_spin.wav"
+}
+
+"Weapon_Gatling.WindUp"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_wind_up.wav"
+}
+
+
+"Weapon_Gatling.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_shoot.wav"
+}
+
+"Weapon_Gatling.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_shoot_crit.wav"
+}
+
+//Cow Mangler
+"Weapon_CowMangler.SingleCharged"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")fartsy/misc/brawler/cow_mangler_lazor.wav"
+}
+
+//Huo long heater
+"Dragon_Minigun.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop_dry.wav"
+}
+
+"Dragon_Minigun.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop.wav"
+}
+
+"Dragon_Minigun.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop_crit.wav"
+}
+
+//Liberty Launcher
+"Weapon_Liberty_Launcher.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")farsty/misc/rocket_ll_shoot.wav"
+}
+
+"Weapon_Liberty_Launcher.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")farsty/misc/rocket_ll_shoot_crit.wav"
+}
+
+//Medic Shield (yes this is a weapon)
+"WeaponMedi_Shield.Deploy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")fartsy/ffxiv/teleport_sync.wav"
+}
+
+//Natascha
+"Weapon_Minifun.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_spin.wav"
+}
+
+"Weapon_Minifun.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_shoot.wav"
+}
+
+"Weapon_Minifun.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_shoot_crit.wav"
+}
+
+//Rocket Launcher
+"Weapon_RPG.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_shoot.wav"
+}
+
+"Weapon_RPG.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_shoot_crit.wav"
+}
